@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Statistics from './Statistics/Statistics';
-import FeedbackOptions from './FeedbackOption/FeedbackOptions';
-import Section from './Section/Section';
-import Notification from './Notification/Notification';
+import Statistics from './Statistics/Statistics.jsx';
+import FeedbackOptions from './FeedbackOption/FeedbackOptions.jsx';
+import Section from './Section/Section.jsx';
+import Notification from './Notification/Notification.jsx';
 
 const App = () => {
   const [state, setState] = useState({
